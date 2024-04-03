@@ -6,14 +6,14 @@ function App() {
     <div>
       <main className="m-5 space-y-5">
         <nav id="NavBar" className="bg-gray-800 w-11/12 mx-auto rounded text-3xl">
-            <div className="flex p-5 space-x-1">
-              <div className="flex space-x-3 text-gray-300">
+            <div className="flex p-5 space-x-5">
+              <div className="flex space-x-5 text-gray-300">
                 <img src="./src/assets/Icon_Cyberus.png" alt="Cyberus" className="h-12 w-auto" />
                 <a href="#" className="bg-gray-900 rounded-md px-3 py-1">Cyberus</a>
               </div>
-              <div className="text-white space-x-1 py-1">
-                <a href="#" className=" text-gray-300  hover:bg-gray-700 rounded-md px-3 py-1">Contato</a>
-                <a href="#" className=" text-gray-300  hover:bg-gray-700 rounded-md px-3 py-1">Sobre nos</a> 
+              <div className="flex text-white space-x-5">
+                <a href="#" className="hover:bg-gray-700 rounded-md px-3 py-1">Contato</a>
+                <a href="#" className="hover:bg-gray-700 rounded-md px-3 py-1">Sobre nós</a> 
               </div>
             </div>
             
