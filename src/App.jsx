@@ -6,12 +6,12 @@ function App() {
     <div>
       <main className="m-5 space-y-5">
         <nav id="NavBar" className="bg-gray-800 w-11/12 mx-auto rounded text-3xl">
-            <div className="flex p-5 space-x-5">
-              <div className="flex space-x-5 text-gray-300">
+            <div className="flex p-5 space-x-5 flex items-center justify-center md:justify-start">
+              <div className="">
                 <img src="./src/assets/Icon_Cyberus.png" alt="Cyberus" className="h-12 w-auto" />
-                <a href="#" className="bg-gray-900 rounded-md px-3 py-1">Cyberus</a>
               </div>
-              <div className="flex text-white space-x-5">
+              <div className="hidden md:flex text-white space-x-5">
+                <a href="#" class="bg-gray-900 rounded-md px-3 py-1">Cyberus</a>
                 <a href="#" className="hover:bg-gray-700 rounded-md px-3 py-1">Contato</a>
                 <a href="#" className="hover:bg-gray-700 rounded-md px-3 py-1">Sobre nós</a> 
               </div>
