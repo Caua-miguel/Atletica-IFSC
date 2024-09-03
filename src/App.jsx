@@ -21,19 +21,43 @@ function App() {
         <div id="top-content" className="bg-blue-500 flex h-10/12 w-11/12 mx-auto rounded">
             
             
-            <p className="text-center p-5">
+            <div className="relative text-center p-5 content-center">
                 
-                <h1 className="text-center text-6xl h-20 w-auto">
+                <h1 className="text-6xl p-5 py-2">
                   A jornada começa agora!
                 </h1>
                 
-                Aqui vai ficar um paragrafo curto sobre a imagem
+                <p className="p-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-              <img src="./src/assets/imagem_apoio_apresentacao.png" alt="esportes" className="flex p-5 inset-y-2 right-2 h-5/6 w-auto rounded-3xl"/>
+                </p>
+                
+                <p className="p-5">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                  
+                <p className="p-5">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+
+                <p className="p-5">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                
+            </div>
+
+            <img src="./src/assets/imagem_apoio_apresentacao.png" alt="esportes" className="flex p-5 object-center right-2 h-5/6 w-auto rounded-3xl"/>
             
         </div>
         <div id="botton-content" className="bg-yellow-500 w-11/12 mx-auto rounded">
